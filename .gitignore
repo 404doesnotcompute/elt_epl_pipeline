@@ -1,52 +1,93 @@
-#python files
+# Byte-compiled / Optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-#apple metadata
-.DS_store
-
-#Virtual Environments
-venv/
-env/
-.venv/
-de_prep/
-
-#VS code
-.vscode/
-
-# Environment Variables
-.env
-.env.*
-
-#Log and Outputs
-*.log
-
-# Jupyter notebook checkpoints (if used)
-.ipynb_checkpoints/
-
-# Unit test cache
-.pytest_cache/
-.coverage
-htmlcov/
-.tox/
-
-# MyPy / type checking
-.mypy_cache/
-
-# Linting
-.pylint.d/
-
-# Compiled C files (optional)
+# C extensions
 *.so
 
-# Distribution files
+# Virtual Environments
+venv/
+.venv/
+env/
+de_prep/
+venv/elt/
+venv/dbt/
+.Python
+
+# Distribution / Packaging
 build/
 dist/
+downloads/
+develop-eggs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
 *.egg-info/
+*.egg
+.installed.cfg
 
-# Scratch Pads
-helper.py
+# Environment & Config Files
+.env
+.env.*
+.user.yml
+profiles.yml
+*.spec
+*.manifest
+poetry.lock
+.tool-versions
+
+# Installer Logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Logs & Outputs
+*.log
+logs/
+htmlcov/
+coverage.xml
+.coverage
+.coverage.*
+.cache
+
+# Test / Coverage / QA
+.tox/
+*,cover
+test.env
+makefile.test.env
+.pytest_cache/
+.hypothesis/
+
+# Linting / Type Checking
+.mypy_cache/
+.dmypy.json
+.pylint.d/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-*
+*.sw*
+*~
+
+# OS / Tooling Metadata
+.DS_Store
+.DS_store
+.ipynb_checkpoints/
+.python-version
+
+# Application-Specific
 pgadmin_data/
 postgres_data/
 data/
+dbt_env/
+docs/_build/
+
+# Project Scratch Files
+helper.py
+index.html
